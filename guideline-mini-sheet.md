@@ -2,11 +2,11 @@
 
 ## Chọn đúng loại trước khi vẽ
 
-| Loại | Câu hỏi | Trong bài |
-| --- | --- | --- |
-| Semantic | Pixel này thuộc **loại vùng** nào? | Easy, `cp3_thin`, `cp4_curb`, `cp6_coverage` |
-| Instance | Pixel này thuộc **vật nào**? | Medium, `cp1_holes`, `cp2_slice`, `cp5_occlusion` |
-| Panoptic | Vùng thuộc loại nào **và** vật đếm được nào? | Hard |
+| Loại     | Câu hỏi                                      | Trong bài                                                             |
+| -------- | -------------------------------------------- | --------------------------------------------------------------------- |
+| Semantic | Pixel này thuộc **loại vùng** nào?           | Easy (OK), `cp3_thin` (OK), `cp4_curb` (OK), `cp6_coverage` (OK)      |
+| Instance | Pixel này thuộc **vật nào**?                 | Medium (OK), `cp1_holes` (OK), `cp2_slice` (OK), `cp5_occlusion` (OK) |
+| Panoptic | Vùng thuộc loại nào **và** vật đếm được nào? | Hard (OK)                                                             |
 
 Tên lớp phải giống từng chữ trong `classes.json` của task. `traffic sign` khác `traffic_sign`. Không dùng chung một danh sách lớp cho mọi task.
 
@@ -28,4 +28,3 @@ Tên lớp phải giống từng chữ trong `classes.json` của task. `traffic
 5. Đã Save và export đúng format của task chưa?
 
 Khi không chắc, ghi ảnh/vị trí, dấu hiệu nhìn thấy, quy tắc đã dùng và điều cần hỏi trong `REPORT.md`. Không ép đoán cho đủ coverage.
-
